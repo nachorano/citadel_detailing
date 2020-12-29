@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+}
+
+/*SPACING*/
+.space-large{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.space-medium{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.space-small{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*Boton flotante WSP y de subir*/
+
+.btn-whatsapp a {
+    span.icon-whatsapp1 {
+    display:block;
+    position: fixed;
+    right:25px;
+    bottom:25px;
+    z-index:999;
+    background-color:$green-wsp;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid $green-wsp-border;
+    font-size: 30px;
+    color: $white;
+    padding: 15px;
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: none;
+}
+
+.btn-color{
+    color: $gray-dark;
+    background-color: $gray-light;
+    border: 2px solid $aquamarine;
+
+}

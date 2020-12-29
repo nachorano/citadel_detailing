@@ -1,0 +1,68 @@
+.background-home{
+    background: url(../img/bg_1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh !important;
+}
+
+.containerText{
+    h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px $gray-shadow;
+        text-transform: uppercase;
+        padding-bottom: 60px;
+    }
+    a{
+        background-color: $aquamarine;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $black;
+        padding: 15px 25px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        &:hover{
+            background-color:$aquamarine-dark;
+        }
+    }
+}
+
+@media (max-width: $screen_medium){
+    .containerText h1{
+        font-size: 1.8rem;
+    }
+}
+
+/*FEATURES*/
+
+.feature__box{
+    color:$gray-dark;
+    width: 100%;
+    height: 100%;
+    padding: 70px 15px 50px 15px;
+    box-shadow: -1px 12px 10px -9px rgba(72,72,72,0.89);
+    border: 1px solid $gray-ash;
+
+    .feature__box--title{
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+
+    .feature__box--text{
+        font-size: 1.05rem;
+    }
+}
+
+.icon-checkmark, .icon-currency-dollar,
+.icon-verified_user, .icon-workspaces_filled{
+
+    color: $aquamarine;
+    font-size: 2.81rem;
+    padding: 15px;
+    border: 3px solid $aquamarine;
+    border-radius: 15px;
+}

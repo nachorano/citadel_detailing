@@ -1,0 +1,42 @@
+/* Colors */
+$white: #fff;
+$white-opacity:  rgba(255, 255, 255, 0.35);
+$aquamarine: #44dbbd;
+$aquamarine-dark:  #36bfa3;
+$aquamarine-opacity: rgba(68,219,189,.6);
+$black: #000;
+$gray-shadow: #999;
+$gray-ash: #EBEBEB;
+$gray-light: #DFDFDF;
+$gray-dark:#202020;
+$gray-dark-light:  #404040;
+$gray-dark-opacity:  rgba(21, 21, 21, 0.1);
+$gray-dark-opacity-strong:  rgba(21, 21, 21, 0.6);
+$gray-opacity: rgba(138, 155, 165, 0.15);
+$green-wsp: #00bb2d;
+$green-wsp-border: #008821;
+$color-insta:#E1306C;
+$color-face: #3b5998;
+$color-youtube: #FF0000;
+
+/* Fonts */ 
+$main-font: 'Roboto', sans-serif;
+
+/*Screen sizes*/
+$screen_small: "576px";
+$screen_medium: "767px";
+$screen_large: "992px";
+$screen_xlarge: "1200px";
+
+$mobile: "only screen and (max-width: #{$screen_small - 1})";
+$mobile_landscape: "only screen and (min-width: #{$screen_small}) and (orientation : landscape)";
+
+$tablet: "only screen and (min-width: #{$screen_medium})";
+$tablet_portrait: "only screen and (min-width: #{$screen_medium}) and (orientation : portrait)";
+$tablet_landscape: "only screen and (min-width: #{$screen_medium}) and (orientation : landscape)";
+$tablet_max: "only screen and (max-width: #{$screen_large - 1})";
+$normal: "only screen and (min-width: #{$screen_large})";
+$desktop: "only screen and (min-width: #{$screen_xlarge})";
+
+
+

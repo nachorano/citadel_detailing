@@ -1,0 +1,21 @@
+.form-control-plaintext{
+    border-bottom: 1px solid $aquamarine;
+}
+
+.form-control{
+    border: 1px solid $aquamarine;
+}
+
+.btn__send{
+    background-color: $aquamarine;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $black;
+        padding: 15px 25px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+        &:hover{
+            background-color:$aquamarine-dark;
+        }
+}

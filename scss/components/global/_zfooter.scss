@@ -1,0 +1,51 @@
+$redes:(
+    insta: $color-insta,
+    face: $color-face,
+    youtube: $color-youtube
+);
+
+.footer {
+    background: $aquamarine-dark;
+    color: $white;
+    .footer__links{
+        li a.footer__links--url {   
+            color:$white;
+            -webkit-transition: color .2s;
+            transition: color .2s;
+            &:hover{
+                text-decoration: none;
+                color: $gray-dark;
+            }
+        }
+        ul.footer__links--listStyle{
+            list-style-type: none;
+        }
+    }
+    .footer__about{
+        i {
+            font-size: 25px;
+            padding: 0 5px;
+        }
+
+
+        a {
+            color: $white;
+            -webkit-transition: color .2s;
+            transition: color .2s;
+            text-decoration: none;
+        }
+
+        @each $red, $color in $redes {
+            a.#{$red}:hover{
+                color: $color;
+            }
+        }
+    }
+    .footer__location i {
+        font-size: 18px;
+    }
+    .footer__copyright .footer__copyright--topLine {
+        border-top: 1px solid $white-opacity;
+    }
+}
+
